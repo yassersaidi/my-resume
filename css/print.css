@@ -1,0 +1,8 @@
+@media print {
+    @media print {
+        a[href*='//']:after {
+            content:" (" attr(href) ") ";
+            color: rgb(37, 117, 238);
+        }
+    }
+}
